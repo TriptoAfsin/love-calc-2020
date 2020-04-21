@@ -23,7 +23,8 @@ function wordShow(){
 .then(data => {
     console.log(data);
     wait.style.display = "none";
-    output.innerHTML = `<h1>Love Perentage: ${data.percentage}% </h1><br><h1 class="verdict">Verdict: "${data.result}"</h1>
+    output.innerHTML = `<h1>Love Perentage: ${data.percentage}% </h1><br><h1 class="verdict">Verdict: "${data.result}"</h1><br><br>
+    <a class="share" href="http://www.facebook.com/sharer.php?u=https://triptoafsin.github.io/love-calc-2020/">Share</a>
     <h4 class="nb">N.B: This calculations are only for fun purposes 😄</h4>
     `
 })
