@@ -96,6 +96,31 @@ html{
     padding: 1.25rem;
 }
 
+.share{
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(204, 41, 76);
+    margin-left: 1rem;
+    border-radius: 20px;
+    padding: 1.25rem;
+}
+.share:hover{
+    font-weight: bold;
+    text-decoration: none;
+    transition: ease-in 0.25s;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(219, 65, 98);
+    margin-left: 1rem;
+    border-radius: 20px;
+    padding: 1.25rem;
+}
+
 #wait{
     font-size: 2rem;
     color: black;
